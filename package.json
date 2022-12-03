@@ -1,0 +1,26 @@
+{
+  "name": "poke-finder",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.5.0",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persistedstate": "^1.6.1",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5",
+    "vite-svg-loader": "^3.3.0"
+  }
+}
